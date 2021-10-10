@@ -12,7 +12,7 @@ public class A141AmusingJoke {
         Stack<Character> s = jumble.chars().mapToObj(e->(char) e).collect(Collectors.toCollection(Stack::new));
         for (char c:
              host.toCharArray()) {
-            s.
+           // s.
         }
     }
 }
